@@ -1,16 +1,17 @@
 
 <div style="float:left; width: 23em; padding-bottom:100%; padding-left:5px; padding-top:10px; background-color:#cad8ed">
 <nav class="nav flex-column">
-  <button class="btn btn-lg d-inline-flex align-items-right rounded collapsed" data-bs-toggle="collapse" data-bs-target="#layout-collapse" aria-expanded="false" id="st">Getting Started</button>
+  <button class="btn btn-lg d-inline-flex align-items-right rounded" data-bs-toggle="collapse" data-bs-target="#start-collapse" aria-expanded="false" id="st">Getting Started</button>
   
-  <div class="collapse show" id="layout-collapse">
+  <div class="collapse show" id="start-collapse">
+          
           <ul class="pb-2 lg">
-              <li><a  class="d-inline-flex align-items-right rounded navSubItm">RunScan</a></li>
+              <li><%= link_to "RunScan", home_runscan_path %></li>
               <li><a  class="d-inline-flex align-items-right rounded navSubItm">Containers</a></li>
               <li><a  class="d-inline-flex align-items-right rounded navSubItm">Grid</a></li>
           </ul>
-        </div>
-
+          
+        </div> 
 </nav>
 </div>
 
